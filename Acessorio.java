@@ -8,8 +8,7 @@ public class Acessorio extends Produto {
 
     @Override
     public void exibirDetalhes() {
-        System.out.println("Acessório: " + getNome() +
-                " | Material: " + material +
-                " | Preço: " + getPreco());
+        System.out.println("Acessório: " + getNome() + " | Material: " + material + " | Preço: " + getPreco());
     }
 }
+
